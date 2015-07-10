@@ -5,7 +5,7 @@ from . import pingone
 class NanolearningProvider(BaseProvider):
     BACKEND_CLASS = pingone.PingOneBackend
     ICON_CLASS = 'icon-signin'
-    NAME = 'Applied Materials/Eteris account'
+    NAME = 'Applied Materials'
 
     SETTINGS = {
         'SOCIAL_AUTH_PING_ONE_ASSERTION_CONSUMER_SERVICE_URL': None,
